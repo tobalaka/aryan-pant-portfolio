@@ -1,6 +1,8 @@
 # TRASH
 
-An original Roblox action RPG, built in Luau, about a year in development. It was inspired by the anime *Gachiakuta* and is a non-commercial fan-inspired project. I submitted it to the Congressional App Challenge.
+An original Roblox action RPG, built in Luau, about a year in development. It is inspired by an anime I love, with an original world, factions, and systems. I submitted it to the Congressional App Challenge.
+
+Showcase video: https://youtu.be/wf2Kc4tQBTo
 
 ## Idea
 
