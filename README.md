@@ -8,11 +8,15 @@ Contact: pantary000@gmail.com
 
 | Project | What it is | Tech |
 |---|---|---|
-| [TRASH](projects/trash) | An original Roblox action RPG where salvage and waste choices change a shared, server-wide pollution level. About a year in development. | Roblox Studio, Luau, Blender |
+| [TRASH](projects/trash) | An original Roblox action RPG where salvage and waste choices change a shared, server-wide pollution level. About a year in development. Full Luau source (221 scripts) is in this repo. | Roblox Studio, Luau, Blender |
 | [HeXD Lab research](projects/hexd-underwater-vr) | Underwater acoustics research and a VR sound simulation with UT Dallas PhD students (summer 2026). | VR, research |
 | [A Ripple Effect](projects/a-ripple-effect) | An open, searchable community water database. I led the TypeScript frontend and backend. | TypeScript |
 | [QuestLog](projects/questlog) | A game-style task tracker built in AI Squads, selected top 5 among 100+ participants in Cohort 3. | |
 | [Independent Roblox games](projects/roblox-studio-games) | Three published Roblox games reaching 500+ players, plus custom Luau scripts. | Roblox Studio, Luau |
+
+## What is in this repo
+
+TRASH is the only project whose source code is published here: `projects/trash/src` holds all of its scripts. The other project pages summarize work done in other places (a research lab, a team repository, a cohort program, Roblox Studio), so they describe that work and do not contain its code.
 
 ## About how I work
 
