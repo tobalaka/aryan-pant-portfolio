@@ -31,6 +31,28 @@ Pollution is a server-wide condition. Sorting and purification lower it. Smeltin
 
 I am the creator and director: I chose the premise, audience, environmental connection, priorities, and feedback. I used AI tools (Claude and OpenAI Codex) extensively for Luau code generation and revision, debugging, and automated checks, and Tripo AI for 3D assets. AI agents did significant implementation work, so I do not claim to have written every line myself. My friends tested the game, gathered resources, found problems, and helped me when I was stuck.
 
+## Source code
+
+The Luau source for the whole game is in this folder: 221 scripts (server, client and shared modules) exported from the place file, organized the way Roblox Studio shows them.
+
+```
+src/
+  ServerScriptService/   combat, mobs, destruction, progression (server logic)
+  ReplicatedStorage/     shared data, remotes, client controllers, UI
+  StarterPlayer/         character scripts, shift lock, player scripts
+  StarterGui/            HUD scripts
+  ServerStorage/         map generation tools and data
+  Workspace/             scripts attached to the rig and the train system
+combat-prototype/        a newer server-authoritative combat backend with 167 tests
+default.project.json     Rojo project file for the services above
+```
+
+To read the code, just open the `src` folders. To sync it into Studio, install [Rojo](https://rojo.space) and run `rojo serve` here. The world itself (terrain, models, meshes, audio and animation assets) is not in this repository. It lives in the Roblox place, so the code alone will not recreate the full game.
+
+The scripts were exported unchanged from the version 566 place. As described above, AI tools wrote much of this code. I directed the design, tested it and fixed problems.
+
+`combat-prototype` is an isolated rewrite of the combat rules (attacks, parry, posture, dodge, launch) that I built and tested in a separate copy of the place. It has not been published to the live game.
+
 ## Status
 
 In development. Ideas for version 2.0, not yet built: player interviews, clearer onboarding, more active repair and reuse goals, stronger sources for Field Notes, accessibility improvements, and more multiplayer and save/rejoin testing.
